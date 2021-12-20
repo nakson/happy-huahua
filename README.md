@@ -1,6 +1,7 @@
 # Genetic Algorithm
 
 ![for huahua](https://img.shields.io/badge/%F0%9F%8E%88for%20Huahua-2021-brightgreen?&logo=Ghostery)
+- View: https://nakson.github./happy-huahua/
 
 ### Algorithm Description
 
