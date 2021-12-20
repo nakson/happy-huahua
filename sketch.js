@@ -34,7 +34,7 @@ let allPhrases;
 let stats;
 
 function preload() {
-  gif_cat = createImg("cat.gif");
+  gif_cat = createImg("cat.gif", "cat gif image", "use-credentials");
 }
 
 function setup() {
