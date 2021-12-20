@@ -1,6 +1,6 @@
 # Genetic Algorithm
 
- ![for huahua](https://img.shields.io/badge/🎈for Huahua-2021-brightgreen?&logo=Ghostery)
+![for huahua](https://img.shields.io/badge/%F0%9F%8E%88for%20Huahua-2021-brightgreen?&logo=Ghostery)
 
 ### Algorithm Description
 
@@ -28,17 +28,17 @@ From [Chapter 9.](https://natureofcode.com/book/chapter-9-the-evolution-of-code/
 
       (i.e. the more fit it is the more times it appears in the mating pool, in order to be more likely picked for reproduction)
 
-- Step 3: **Reproduction** 
+- Step 3: **Reproduction**
 
   - Create a new empty population Fill the new population by executing the following steps:
 
-    ​	a. Pick two "parent" objects from the mating pool.
+    ​ a. Pick two "parent" objects from the mating pool.
 
-    ​	b. Crossover -- create a "child" object by mating these two parents.
+    ​ b. Crossover -- create a "child" object by mating these two parents.
 
-    ​	c. Mutation -- mutate the child's DNA based on a given probability.
+    ​ c. Mutation -- mutate the child's DNA based on a given probability.
 
-    ​	d. Add the child object to the new population.
+    ​ d. Add the child object to the new population.
 
 - Step 4:
   - Replace the old population with the new population and return to Step 2

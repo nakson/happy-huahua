@@ -33,6 +33,10 @@ let bestPhrase;
 let allPhrases;
 let stats;
 
+function preload() {
+  gif_cat = createImg("cat.gif");
+}
+
 function setup() {
   bestPhrase = createP("Best phrase:");
   //bestPhrase.position(10,10);
@@ -91,4 +95,6 @@ function displayInfo() {
   stats.html(statstext);
 
   allPhrases.html("All phrases:<br>" + population.allPhrases());
+  gif_cat.position(AUTO, 600, "relative");
+  gif_cat.size(100, AUTO);
 }
