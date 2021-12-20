@@ -76,14 +76,14 @@ function draw() {
     noLoop();
   }
 
-  gif_cat.position(AUTO, 600, "relative");
-  gif_cat.size(100, AUTO);
   displayInfo();
 }
 
 function displayInfo() {
   // Display current status of population
   let answer = population.getBest();
+  gif_cat.position(AUTO, 600, "relative");
+  gif_cat.size(100, AUTO);
 
   bestPhrase.html("Best wishes🎈🎉:<br>" + answer);
 
