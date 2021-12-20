@@ -1,4 +1,4 @@
-// Genetic Algorithm
+// Genetic Algorithm - DNA is an array of characters
 
 // A class to describe a pseudo-DNA, i.e. genotype
 //   Here, a virtual organism's DNA is an array of character.
@@ -9,7 +9,8 @@
 //      -- mutate DNA
 
 function newChar() {
-  let c = floor(random(63, 122));
+  let c = floor(random(62, 122));
+  if (c === 62) c = 33;
   if (c === 63) c = 32;
   if (c === 64) c = 46;
 

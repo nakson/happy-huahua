@@ -1,4 +1,4 @@
-// Genetic Algorithm
+// Genetic Algorithm - Population is an arryar of DNAS
 
 // A class to describe a population of virtual organisms
 // In this case, each organism is just an instance of a DNA object

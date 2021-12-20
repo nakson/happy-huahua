@@ -1,4 +1,4 @@
-// Genetic Algorithm
+// Genetic Algorithm - Main Program
 
 // Demonstration of using a genetic algorithm to perform a search
 
@@ -39,16 +39,17 @@ function setup() {
   bestPhrase.class("best");
 
   allPhrases = createP("All phrases:");
-  allPhrases.position(600, 10);
+  allPhrases.position(800, 10);
   allPhrases.class("all");
+  bestPhrase.style("display", "flex");
 
   stats = createP("Stats");
   //stats.position(10,200);
   stats.class("stats");
 
   //createCanvas(640, 360);
-  target = "To be or not to be.";
-  popmax = 200;
+  target = "Happy birthday to Huahua!";
+  popmax = 888;
   mutationRate = 0.01;
 
   // Create a population with a target phrase, mutation rate, and population max
@@ -78,7 +79,7 @@ function displayInfo() {
   // Display current status of population
   let answer = population.getBest();
 
-  bestPhrase.html("Best phrase:<br>" + answer);
+  bestPhrase.html("Best wishes🎈🎉:<br>" + answer);
 
   let statstext =
     "total generations:     " + population.getGenerations() + "<br>";
