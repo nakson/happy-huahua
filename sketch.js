@@ -32,6 +32,7 @@ let population;
 let bestPhrase;
 let allPhrases;
 let stats;
+let gif_cat;
 
 function preload() {
   gif_cat = createImg("cat.gif", "cat gif image", "anonymous");
@@ -77,13 +78,13 @@ function draw() {
   }
 
   displayInfo();
+  gif_cat.position(AUTO, 600, "relative");
+  gif_cat.size(100, 111);
 }
 
 function displayInfo() {
   // Display current status of population
   let answer = population.getBest();
-  gif_cat.position(AUTO, 600, "relative");
-  gif_cat.size(100, AUTO);
 
   bestPhrase.html("Best wishes🎈🎉:<br>" + answer);
 
