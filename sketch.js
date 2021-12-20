@@ -34,7 +34,7 @@ let allPhrases;
 let stats;
 
 function preload() {
-  gif_cat = createImg("cat.gif", "cat gif image", "use-credentials");
+  gif_cat = createImg("cat.gif", "cat gif image", "anonymous");
 }
 
 function setup() {
@@ -76,6 +76,8 @@ function draw() {
     noLoop();
   }
 
+  gif_cat.position(AUTO, 600, "relative");
+  gif_cat.size(100, AUTO);
   displayInfo();
 }
 
@@ -95,6 +97,4 @@ function displayInfo() {
   stats.html(statstext);
 
   allPhrases.html("All phrases:<br>" + population.allPhrases());
-  gif_cat.position(AUTO, 600, "relative");
-  gif_cat.size(100, AUTO);
 }
